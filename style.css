@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+
+    height: 500vh;
+    background: linear-gradient(250.60deg, #ff6363 0%, #b41818 28.53%, #460000 75.52%);
+
+}
+
+.container{
+max-width: 1280px;
+margin: auto;
+
+}
+
+.flex{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem{
+    background-color: #ffffff;
+    padding: 10px 4%;
+}
+
+header.rolagem i, a, ul li a{
+    color: rgb(129, 11, 11);
+}
+
+
+header i{
+font-size: 30px;
+color: rgb(129, 11, 11);
+}
+
+header ul{
+list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: rgb(129, 11, 11);
+    text-decoration: none;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(129, 11, 11);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.banner{
+    height: 30vh;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    padding: 0 19%;
+}
+
+.hero-img img{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: -40%;
+    padding: 0 1%;
+    transform: translateX(40%)
+    
+}
+
+.hero-texto h4, h1, p{
+    padding: 0 5%;
+    align-items: center;
+
+}
+
+.hero-text{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 150%;
+    padding: 0 1%;
+    color: #ffffff;
+}
+
+.hero-text{
+    height: 100%;
+    width: 100%;
+    min-height: 30vh;
+    top: 75%;
+
+}
